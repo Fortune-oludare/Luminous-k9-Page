@@ -1,0 +1,369 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'kumbh sans' ,sans-serif;
+  
+
+}
+ .logo{
+     height: 64px;
+ }
+ nav{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 64px;
+     background-color:white;
+     width: 100%;
+     position: sticky;
+     top: 0;
+}
+.anchor:hover{
+     transition: 1.2s;
+     color: rgb(226, 164, 7);
+     border-bottom: 3px solid rgb(226, 164 ,7);
+ }
+.anchor{
+     font-size:17px;
+     color: black;
+     text-decoration: none;
+     width: 100px;
+     height: 100%;
+     line-height: 64px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ li{
+     list-style: none;
+     display: inline-block;
+ }
+.main{
+    top: 0;
+    height: 665.9px;
+    width: 100%;
+}
+.footer{
+    background-color: #fff;
+    display:flex;
+    padding-top: 250px;
+}
+.div a{
+    color: #000;
+    text-decoration: none;
+  
+}
+.div2 a{
+    color: #000;
+    text-decoration: none;
+    
+   
+}
+.div{
+    cursor: pointer;
+    padding: 35px;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 100px;
+}
+.blue:hover{
+    color: #0096FF;
+}
+.div2{
+    cursor: pointer;
+    padding: 35px;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 200px;
+
+}
+.vertical a{
+    
+   display: block; 
+   padding: 2px;
+}
+.div2 h2{
+font-size: 20px;
+margin-bottom: 20px;
+}
+.div h2{
+font-size: 20px;
+margin-bottom: 20px;
+}
+.contact-main{
+    display: block;
+}
+.hrdiv{
+    margin-top:40px ;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   hr{
+    width: 140vh;
+   }
+
+   /* Creator CSS */
+
+   .info  a{
+    margin-bottom: 30px;
+    background: #0096FF ;
+    color: #fff;
+    padding:  15px 70px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+}
+ .info a:hover{
+    background-color: gray;
+    transition: 1.5s;
+} 
+.info {
+margin-left: 100px;
+margin-top: 80px;
+
+}
+.photo-box video:hover{
+    scale: .9;
+    transition: 1.3s;
+}
+.photo-box video{
+box-shadow: 1px 10px 15px gray;
+border-radius: 20px;
+float: right;
+width: 350px;
+height: 580px;
+cursor: pointer;
+margin-bottom: 60px;
+}
+.image-box{
+position: relative;
+}
+
+h1 i {
+font-family: serif;
+color: white;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+/* Dog CSS */
+
+  .foot12{  
+      display: inline-block;
+      width: 354.2px;
+      height: 240px;
+      border-radius: 5px;
+  }
+  .video-preview{
+    margin-top: 16px;
+      margin-left: 30px;
+      cursor: pointer;
+      display: inline-block;
+      width: 260px;
+      vertical-align: top;
+      margin-right: 80px;
+  }
+  
+  .video-info{
+      display: inline-block ;
+      width: 300px;
+      vertical-align: top;
+  }
+  
+  
+    .btn-box a{
+      width: auto;
+      height: 30px;
+      background: rgb(226, 164, 7);
+      color: #fff;
+      padding-top: 5px;
+      padding-left: 10px;
+      
+      border-radius: 30px;
+      cursor: pointer;
+      display: inline-block;
+      margin-top: 9px;
+      text-decoration: none;
+   }
+   .btn-box a:hover{
+    padding-top: 4px;
+    padding-left: 10px;
+      transition: 1.3s;
+      background:  #fff; 
+      color: rgb(226, 164, 7);
+      border: solid 1px rgb(226, 164, 7);;
+   } 
+   .fri{
+    font-size: 35px;
+    text-align: center;
+
+   }
+   .hrdiv{
+    margin-top:40px ;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   hr{
+    width: 140vh;
+   }
+
+   .SlideInLeft{
+    animation: SlideInLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+   }
+   @keyframes SlideInLeft{
+    from{
+        transform: translateX(-1000px);
+    }
+    to{
+        transform: translateX(10px);
+    }
+
+   }
+   
+   .SlideRotate{
+    margin-top: 200px;
+    margin-left: 100px;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #0096FF;
+    animation: SlideRotate;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes SlideRotate {
+    0%{
+      transform: translateX();
+    }
+     50%{
+       scale: 2;
+        transform: rotate(0);
+        border-radius: 0px;
+     }
+    100%{
+        transform: rotate(360deg);
+        border-radius: 50%;
+        scale: 2;
+    }
+   }
+   
+   .burgar-menu, .burgar-menu-btn{
+       display: none;
+
+   }
+
+   @media screen and (max-width:600px) {
+    .burgar-menu-btn{
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-image: url(/burgar-menu.png), url(/close.png);
+        background-size:contain ;
+        background-repeat: no-repeat;
+        background-position: center,center left 50px;
+    }
+    .burgar-menu{
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+      
+        background-color: #fff;
+    }
+    .burgar-menu ul{
+       width: 100%;
+       height:100px;
+       padding-top: 60px;
+       display: flex;
+       flex-wrap: wrap;
+       align-content: flex-start;
+    }
+    .burgar-menu ul li:last-child{
+        border-bottom:2px solid #000;
+    }
+    .burgar-menu ul li{
+    flex-basis: 100%;
+    border-top:2px solid #000;
+    }
+    .burgar-menu ul li a{
+        display: block;
+        height: 100%;
+        font-size: 20px;
+        padding:10px 0;
+        flex-basis:100% ;
+        text-align: center;
+    }
+    
+     nav{
+        width: 100%;
+        /* justify-content: left; */
+    .logobox{
+        padding-right: 200px;
+    }
+     }
+    ul{
+    display: none;
+   }
+   .main{
+    height: 100vh;
+   }
+   .footer{
+    padding-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+   }
+   .div h2{
+    padding: 10px 50px;
+    font-size: 19px;
+   }
+   .div2 h2 {
+    padding: 10px 20px !important;
+    font-size: 15px !important;
+   }
+   .div{
+    display: block;
+    padding: 0px 0px;
+    margin: 0;
+   }
+   .div2{
+    display: block;
+    padding: 0px 0px;
+    margin: 0;
+   }
+   .padding{
+    padding: 0px 4px;
+   }
+    .vertical .blue{
+    padding: 0px 130px;
+   }
+   .fri{
+    font-size: 13px;
+   }
+   .all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+    .video-preview{
+        padding: 0px 0px;
+        margin-left: 0;
+        width: 70%;
+    }
+
+   }
